@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SearchBox from "./SearchBox";
+
 import Maps from "./Maps";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <div style={{ width: "50vw" }}>
         <SearchBox selectPosition={selectPosition} setSelectPosition={setSelectPosition}/>
       </div>
+     
     </div>
   );
 }
